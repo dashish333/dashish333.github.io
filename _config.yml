@@ -9,10 +9,10 @@
 locale                   : "en-US"
 title                    : "Ashish's Portfolio"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "ashish dwivedi"
 description              : &description "personal description"
 url                      : https://dashish333.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/dashish" # the subpath of your site, e.g. "/blog"
 repository               : "dashish333/dashish333.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Ashish Dwivedi"
   avatar           : "profile.png"
-  bio              : "Alumnus IIT | Alumnus JUET"
-  location         : "Location"
+  bio              : "Alumnus  - Indian Institute of Technology \n Alumnus JUET"
+  location         : "Bangalore"
   employer         : #"Strand Life Sciences Pvt Ltd."
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/ashish-dwivedi-58808776/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
