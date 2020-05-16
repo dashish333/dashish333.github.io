@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ashish Dwivedi"
-  avatar           : /images/mypic.jpg
+  avatar           : "mypic.jpg"
   bio              : "Alumnus  - Indian Institute of Technology |  JUET"
   location         : "Bangalore"
   employer         : #"Strand Life Sciences Pvt Ltd."
