@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* MTech in Computer Science & Engineering, [IIT, Gandhinagar], 2019
+* MTech in Computer Science & Engineering, [IIT, Gandhinagar](https://www.iitgn.ac.in/), 2019
 * BTech. in Computer Science, [JUET](https://www.juet.ac.in/), 2014
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
@@ -22,6 +22,7 @@ Work experience
 
 * 2014-2016: Software Engineering Associate
   * Accenture India Pvt. Ltd.
+  
   <!-- * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
@@ -41,22 +42,22 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <!-- <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <!-- <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+<!-- * Currently signed in to 43 different slack teams -->
