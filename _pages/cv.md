@@ -11,21 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* MTech in Computer Science & Engineering, [IIT, Gandhinagar], 2019
+* BTech. in Computer Science, [JUET](https://www.juet.ac.in/), 2014
+<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019-present: Assocate Software Engineer R&D - 
+  *  Strand Life Sciences Pvt.Ltd.I
 
-* Fall 2015: Research Assistant
-  * Github University
+* 2014-2016: Software Engineering Associate
+  * Accenture India Pvt. Ltd.
+  <!-- * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git -->
+
+  <!-- * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Professor Hub -->
   
 Skills
 ======
