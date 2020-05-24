@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Ashish Dwivedi"
   avatar           : "mypic.jpg"
-  bio              : "Alumnus  - Indian Institute of Technology |  JUET"
+  bio              : "Master's in CSE - Indian Institute of Technology"
   location         : "Bangalore"
-  employer         : #"Strand Life Sciences Pvt Ltd."
+  employer         : "Strand Life Sciences Pvt Ltd."
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/ashish-dwivedi-58808776/"
+  linkedin         : "/ashish-dwivedi-58808776/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
