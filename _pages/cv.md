@@ -11,14 +11,14 @@ redirect_from:
 
 Education
 ======
-* MTech in Computer Science & Engineering, [IIT, Gandhinagar](https://www.iitgn.ac.in/), 2019
-* BTech. in Computer Science, [JUET](https://www.juet.ac.in/), 2014
+* MTech (2019) in Computer Science & Engineering - [IIT, Gandhinagar](https://www.iitgn.ac.in/)
+* BTech (2014) in Computer Science & Engineering - [JUET](https://www.juet.ac.in/)
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
-* 2019-present: Assocate Software Engineer R&D - 
-  *  Strand Life Sciences Pvt.Ltd.I
+* 2019-present: Assocate Software Engineer R&D - I
+  *  Strand Life Sciences Pvt.Ltd.
 
 * 2014-2016: Software Engineering Associate
   * Accenture India Pvt. Ltd.
@@ -33,30 +33,39 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning & Data Science
+* Randomized Numerical Linear Algebra & Probability
+* Development Technologies / Framework / Tools
+  * J2EE
+  * JAX-RS/Jersey
+  * Hibernate
+  * ElasticSearch (ELK stack)
+  * Apache Spark
+  * python
+  * pandas , numpy, sklearn, matplotlib
+  * SAP-Ariba
+  * ServiceNow
+  * Git
+  * Eclipse, Jupyter
 
+<!--
 Publications
 ======
   <!-- <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul> 
   
 Talks
 ======
-  <!-- <ul>{% for post in site.talks %}
+   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul> 
   
 Teaching
 ======
   <!-- <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul> 
   
 Service and leadership
 ======
