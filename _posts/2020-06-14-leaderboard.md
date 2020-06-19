@@ -17,10 +17,10 @@ Without further a do we will straight dive into the problem statement.
 
 ## Problem Statement:
 
-Each user on the [ibp](https://indiabiodiversity.org/) portal do some level of activity. These activities and spanned across different type of *module* and *activity* and each activity type is suppose to be subsumed by one of the modules. I hope this wan't a recondite statement. Well, this is not the end, the total score of any user would depend summation of two scores (better call'em score category) which we called *Participation* (P) & *Engagement* (E) score. Each type of activity done by user on the portal is implaced in any one of the above module<br/>
-Allow me to help you portray the hierarchy and for that start with imagining a tree with total score (T) as root(level 0), whose immediate child nodes are *P* & *E*. Each of these score category nodes further nodes (@level 3) as a module (M) , finally each of the activity-type(A) will be a child node for these module (M) nodes.
+Each user on the [ibp](https://indiabiodiversity.org/) portal does some level of activity. These activities and spanned across different type of *module* and *activity* and each activity type is supposed to be subsumed by one of the modules. I hope this wasn't a recondite statement. Well, this is not the end, the total score of any user would depend on the summation of two scores (better call'em score category) which we called *Participation* (P) & *Engagement* (E) score. Each type of activity done by user on the portal is emplaced in any one of the above module<br/>
+Allow me to help you portray the hierarchy and for that start with imagining a tree with the total score (T) as root(level 0), whose immediate child nodes are *P* & *E*. Each of these score category nodes further nodes (@level 3) as a module (M), finally each of the activity-type(A) will be a child node for these modules (M) nodes.
 <span style="color: blue;">
-After setting the base for the problem, what we were required to do, was to rank users based on value of *T*, unique modules (M), activity type (A), along with returning cumulative count of all activities under each of *M* for each user.
+After setting the base for the problem, what we were required to do, was to rank users based on the value of *T*, unique modules (M), activity type (A), along with returning a cumulative count of all activities under each of *M* for each user.
 </span>
 
 ### Input:
@@ -51,19 +51,19 @@ After setting the base for the problem, what we were required to do, was to rank
 
 ## Challenge:
 
-Well the first attempt to solve the problem is to look over internet. But eventually I wasn't lucky enough to find a solution. Eventually upon reading other blogs and ES document and reported issues, I found that a direct solution is not available with ES. The solution demands, nested/pipeline aggregation and bucket sort script, which looks somewhat like the below structure (will see actual *kibana* query soon):
+Well, the first attempt to solve the problem is to look over the internet. But eventually, I wasn't lucky enough to find a solution. Eventually, upon reading other blogs and ES document and reported issues, I found that a direct solution is not available with ES. The solution demands, nested/pipeline aggregation and bucket sort script, which looks somewhat like the below structure (will see actual *kibana* query soon):
 - Level 1: aggregate on users
   - Level 2: aggregate on score category
-  - Level 2: aggregate on module
+  - Level 2: aggregate on the module
     - Level 3: aggregate on activity type
-  - Level 2: bucket script to compute total score
+  - Level 2: bucket script to compute the total score
   - Level 2: sorting on the desired module count/ total score
 
-Well no doubt the *elastic* has some fantastic capability of searching and aggregating. But our problem was little more complex. We would like to sort first level buckets i.e authors, based on the values from the inner level bucket values or total score computed at level 2. 
+Well, no doubt the *elastic* has some fantastic capability of searching and aggregating. But our problem was a little more complex. We would like to sort first level buckets i.e authors, based on the values from the inner level bucket values or total score computed at level 2. 
 
 <span style="color: Maroon;">
-Well this is something for which I couldn't find any solution over web or in ES documentation, as there's no functionality/feature which allows to directly implement a solution for the defined problem. Well as far I can remember this is an open issue with ES team.
-Eventually, with after some deliberate efforts, we contrived the ranking feature for our portal by using the ES core functionality itself. It may not be the best solution but served our deliverbale and is time efficient.
+Well, this is something for which I couldn't find any solution over the web or in ES documentation, as there's no functionality/feature which allows to directly implement a solution for the defined problem. Well, as far I can remember this is an open issue with ES team.
+Eventually, with after some deliberate efforts, we contrived the ranking feature for our portal by using the ES core functionality itself. It may not be the best solution but served our deliverable and is time-efficient.
 <span>
 
 ## Solution:
