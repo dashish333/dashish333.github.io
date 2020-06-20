@@ -1,6 +1,6 @@
 ---
 title: 'ElasticSearch: Driving AutoComplete'
-date: 2020-08-21
+date: 2020-06-15
 permalink: /blog-posts/autocomplete/
 tags:
   - elastic search
@@ -9,15 +9,14 @@ tags:
   - kibana
   - logstash
 ---
-This is one of the features delivered by me and my colleagues for an open-source project [India Biodiversity portal](https://indiabiodiversity.org/)(ibp). Well, before moving on to highlight the implementation, I must say if you are biodiversity enthusiast then do make a profile [here](https://indiabiodiversity.org/).<br/>
+We are a team of 5 engineers & 2 scientists at *[Strand Life Science](https://strandls.com)*, developing and managing an open-source platform known as [India Biodiversity portal](https://indiabiodiversity.org/) dedicated to all the biodiversity enthusiast, and is live on the internet for you. Do make a profile [here](https://indiabiodiversity.org/), if you are biodiversity enthusiast.<br/>
+ 
 <br/>
-
-
-
-While exploring the logic to appropriately implement the autocomplete feature as per our requirement,  two concepts are to be taken into account while creating index in the Elastic. These include that one must have appropriate *settings* and *mapping*. Without extending the boring theory any further, let's dive into our core problem statement and how we achieved it.
+Speaking of the title it was one of the features delivered by me and my colleagues, and <br/> 
+while I was exploring the logic to appropriately implement the autocomplete feature as per our requirement,  I learned that two concepts are to be taken into account while creating index in the Elastic. These include that one must have appropriate *settings* and *mapping*. Without stretching on the theory any further, let's dive into our core problem statement and how we achieved it.
 
 # Problem Statement:
-So, this whole portal as already mentioned earlier is regarding all about biodiversity, trees, frogs, reptiles, what not! Well, this portal is mainly managed by biodiversity scientist, and hence besides the *common names*  there are *scientific name* associated with each of the observation. So, the feature is about providing autocomplete functionality to end-user, whereupon typing a few alphabets the user can see all the possible suggestions.
+So, this whole portal as already mentioned earlier is regarding all about biodiversity, trees, frogs, reptiles, and whatnot, and we refer to any of such single entity as an observation. Each *observation* may have *common names* and *scientific name* associated with each of the observation. So, the feature is about providing autocomplete functionality to end-user, whereupon typing a few alphabets the user can see all the possible suggestions.
 
 # Solution:
 ### Settings:  

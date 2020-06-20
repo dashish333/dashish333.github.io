@@ -1,6 +1,6 @@
 ---
 title: 'ElasticSearch: Driving User Leaderboard'
-date: 2020-06-13
+date: 2020-06-20
 permalink: /blog-posts/leaderboard/
 tags:
   - elastic search
