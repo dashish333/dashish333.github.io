@@ -1,7 +1,7 @@
 ---
 title: 'ElasticSearch: Driving User Leaderboard'
 date: 2020-06-20
-permalink: /blog-posts/leaderboard/
+permalink: /year-archive/leaderboard/
 tags:
   - elastic search
   - logstash

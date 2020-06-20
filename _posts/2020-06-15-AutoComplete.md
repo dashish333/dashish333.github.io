@@ -1,7 +1,7 @@
 ---
 title: 'ElasticSearch: Driving AutoComplete'
 date: 2020-06-15
-permalink: /blog-posts/autocomplete/
+permalink: /year-archive/autocomplete/
 tags:
   - elastic search
   - autocomplete
@@ -10,8 +10,8 @@ tags:
   - logstash
 ---
 We are a team of 5 engineers & 2 scientists at *[Strand Life Science](https://strandls.com)*, developing and managing an open-source platform known as [India Biodiversity portal](https://indiabiodiversity.org/) dedicated to all the biodiversity enthusiast, and is live on the internet for you. Do make a profile [here](https://indiabiodiversity.org/), if you are biodiversity enthusiast.<br/>
- 
-<br/>
+ <br/>
+
 Speaking of the title it was one of the features delivered by me and my colleagues, and <br/> 
 while I was exploring the logic to appropriately implement the autocomplete feature as per our requirement,  I learned that two concepts are to be taken into account while creating index in the Elastic. These include that one must have appropriate *settings* and *mapping*. Without stretching on the theory any further, let's dive into our core problem statement and how we achieved it.
 
