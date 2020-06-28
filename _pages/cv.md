@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* 2019-present: Assocate Software Engineer R&D - I
+* 2019-present: Associate Software Engineer R&D - I
   *  Strand Life Sciences Pvt.Ltd.
 
 * 2014-2016: Software Engineering Associate
