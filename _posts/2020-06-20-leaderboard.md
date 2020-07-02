@@ -1,5 +1,5 @@
 ---
-title: 'ElasticSearch: Driving User Leaderboard'
+title: 'ElasticSearch:[Out-Of-Box] Implementation of Leaderboard Ranking'
 date: 2020-06-20
 permalink: /year-archive/leaderboard/
 tags:
@@ -9,7 +9,7 @@ tags:
   - bucket sort
   - script
 ---
-Would highly recommend to skim through this [blog](/blog-posts/autocomplete/), as it was my first elastic deliverable for the same project, and this is something more advance version of what I had implemented. Also, I'll really appreciate it.
+Would highly recommend to skim through this [AutoComplete Using ElasticSearch](/year-archive/autocomplete/), as it was my first elastic deliverable for the same project, and this is something more advance version of what I had implemented. Also, I'll really appreciate it.
 <br/>
 Without further a do we will straight dive into the problem statement.
 <br/>
