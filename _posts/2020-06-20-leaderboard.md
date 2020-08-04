@@ -18,7 +18,7 @@ Without further a do we will straight dive into the problem statement.
 ## Problem Statement:
 
 Each user on the [ibp](https://indiabiodiversity.org/) portal does some level of activity. These activities and spanned across different type of *module* and *activity* and each activity type is supposed to be subsumed by one of the modules. I hope this wasn't a recondite statement. Well, this is not the end, the total score of any user would depend on the summation of two scores (better call'em score category) which we called *Participation* (P) & *Engagement* (E) score. Each type of activity done by user on the portal is emplaced in any one of the above module<br/>
-Allow me to help you portray the hierarchy and for that start with imagining a tree with the total score (T) as root(level 0), whose immediate child nodes are *P* & *E*. Each of these score category nodes further nodes (@level 3) as a module (M), finally each of the activity-type(A) will be a child node for these modules (M) nodes.
+Allow me to help you portray the hierarchy and for that start with imagining a tree with the total score (T) as root(level 0), whose immediate child nodes are *P* & *E*. Each of these score category nodes have further nodes (@level 2) as a module (M), finally each of the activity-type(A) will be a child node for these modules (M) nodes.
 <span style="color: blue;">
 After setting the base for the problem, what we were required to do, was to rank users based on the value of *T*, unique modules (M), activity type (A), along with returning a cumulative count of all activities under each of *M* for each user.
 </span>
